@@ -39,7 +39,8 @@ namespace CodingChallenge
             string letter = string.Empty;
             try
             {
-                var items = Regex.Split(input, @"(?<=([1-9]))(?=[1-9])(?!\1)|(?<=\s)(?=[1-9])(?!\1)|(?<!([1-9]))(?=[1-9])(?!\1)|(?<!([1-9]))(?!([1-9]))(?!\1)");
+                input = Regex.Replace(input, @"(?<=(.))(?!\1)(?=.)", " ");
+                var items = Regex.Split(input, @"(?<=([1-9]))(?=[1-9])(?!\1)|(?<=\s)(?=[1-9])(?!\1)");
 
                 foreach (string i in items)
                 {
