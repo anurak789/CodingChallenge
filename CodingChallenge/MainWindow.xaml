@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="236">
     <Grid>
 		<TextBox x:Name="txtScreen" HorizontalAlignment="Left" Height="161" Margin="27,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" TextChanged="txtScreen_TextChanged"/>
-		<Button x:Name="btnOne" Content="1&#xD;&#xA;&amp;'(" HorizontalAlignment="Center" VerticalAlignment="Top" Width="39" Margin="32,208,0,0" Height="45" Click="btnOne_Click"/>
+		<Button x:Name="btnOne" Content="1&#xD;&#xA;&amp;'(" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,208,0,0" Height="45" Click="btnOne_Click"/>
 		<Button x:Name="btnTwo" Content="2&#xD;&#xA;abc" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="94,208,0,0" Height="45" Click="btnTwo_Click"/>
 		<Button x:Name="btnThree" Content="3&#xD;&#xA;def" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="161,208,0,0" Height="45" Click="btnThree_Click"/>
 		<Button x:Name="btnFour" Content="4&#xD;&#xA;ghi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,258,0,0" Height="47" Click="btnFour_Click"/>

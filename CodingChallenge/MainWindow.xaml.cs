@@ -18,7 +18,7 @@ namespace CodingChallenge
         private void txtScreen_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (txtScreen.Text.Contains("#"))
-                txtScreen.Text = OldPhonePad(txtScreen.Text.Replace("#", ""));
+                txtScreen.Text = OldPhonePad(txtScreen.Text);
         }
         /// <summary>
         /// This method split input string into array and loop throught array of digit
