@@ -16,7 +16,6 @@ C:\Users\User\source\repos\CodingChallenge\CodingChallenge\obj\Debug\CodingChall
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\bin\Debug\CodingChallenge.exe.config
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\bin\Debug\CodingChallenge.exe
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\bin\Debug\CodingChallenge.pdb
-C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\obj\Debug\CodingChallenge.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\obj\Debug\MainWindow.g.cs
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\obj\Debug\App.g.cs
 C:\Users\User\Source\Repos\CodingChallengeRepo\CodingChallenge\obj\Debug\CodingChallenge_MarkupCompile.cache

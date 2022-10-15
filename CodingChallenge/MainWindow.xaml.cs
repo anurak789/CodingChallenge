@@ -15,7 +15,7 @@ namespace CodingChallenge
             InitializeComponent();
         }
 
-        private void txtScreen_TextChanged(object sender, TextChangedEventArgs e)
+        public void txtScreen_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (txtScreen.Text.Contains("#"))
                 txtScreen.Text = OldPhonePad(txtScreen.Text);
@@ -33,7 +33,7 @@ namespace CodingChallenge
         /// results in <c>items</c>'s return result = "CAB".
         /// </example>
         /// </summary>
-        public static string OldPhonePad(string input)
+        public string OldPhonePad(string input)
         {
             string result = string.Empty;
             string letter = string.Empty;
@@ -46,7 +46,7 @@ namespace CodingChallenge
                 {
                     switch (i)
                     {
-                        case var keyVal when new Regex(@" ^\b([1])\b").IsMatch(keyVal):
+                        case var keyVal when new Regex(@"^\b([1])\b").IsMatch(keyVal):
                             letter = "&";
                             break;
                         case var keyVal when new Regex(@"^\b([1][1])\b").IsMatch(keyVal):

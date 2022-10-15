@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="236">
     <Grid>
-		<TextBox x:Name="txtScreen" HorizontalAlignment="Left" Height="161" Margin="27,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" TextChanged="txtScreen_TextChanged"/>
-		<Button x:Name="btnOne" Content="1&#xD;&#xA;&amp;'(" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,208,0,0" Height="45" Click="btnOne_Click"/>
-		<Button x:Name="btnTwo" Content="2&#xD;&#xA;abc" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="94,208,0,0" Height="45" Click="btnTwo_Click"/>
-		<Button x:Name="btnThree" Content="3&#xD;&#xA;def" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="161,208,0,0" Height="45" Click="btnThree_Click"/>
-		<Button x:Name="btnFour" Content="4&#xD;&#xA;ghi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,258,0,0" Height="47" Click="btnFour_Click"/>
-		<Button x:Name="btnFive" Content="5&#xD;&#xA;jkl" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="94,258,0,0" Height="47" Click="btnFive_Click"/>
-		<Button x:Name="btnSix" Content="6&#xD;&#xA;mno" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="161,258,0,0" Height="47" Click="btnSix_Click"/>
-		<Button x:Name="btnSeven" Content="7&#xD;&#xA;pqrs" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,310,0,0" Height="45" Click="btnSeven_Click"/>
-		<Button x:Name="btnEight" Content="8&#xD;&#xA;tuv" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="94,310,0,0" Height="45" Click="btnEight_Click"/>
-		<Button x:Name="btnNine" Content="9&#xD;&#xA;wxyz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="161,310,0,0" Height="45" Click="btnNine_Click"/>
-		<Button x:Name="btnZero" Content="0&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="32,360,0,0" Height="41" Click="btnZero_Click"/>
-		<Button x:Name="btnWildcart" Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="94,360,0,0" Height="41" Click="btnWildcart_Click"/>
-		<Button x:Name="btnSharp" Content="#" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="161,360,0,0" Height="41" Click="btnSharp_Click"/>
+        <TextBox x:Name="txtScreen" HorizontalAlignment="Left" Height="161" Margin="27,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" TextChanged="txtScreen_TextChanged"/>
+        <Button x:Name="btnOne" Content="1&#xD;&#xA;&amp;'(" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="29,208,0,0" Height="45" Click="btnOne_Click"/>
+        <Button x:Name="btnTwo" Content="2&#xD;&#xA;abc" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="97,208,0,0" Height="45" Click="btnTwo_Click"/>
+        <Button x:Name="btnThree" Content="3&#xD;&#xA;def" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="165,208,0,0" Height="45" Click="btnThree_Click"/>
+        <Button x:Name="btnFour" Content="4&#xD;&#xA;ghi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="29,258,0,0" Height="47" Click="btnFour_Click"/>
+        <Button x:Name="btnFive" Content="5&#xD;&#xA;jkl" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="97,258,0,0" Height="47" Click="btnFive_Click"/>
+        <Button x:Name="btnSix" Content="6&#xD;&#xA;mno" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="165,258,0,0" Height="47" Click="btnSix_Click"/>
+        <Button x:Name="btnSeven" Content="7&#xD;&#xA;pqrs" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="29,310,0,0" Height="45" Click="btnSeven_Click"/>
+        <Button x:Name="btnEight" Content="8&#xD;&#xA;tuv" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="97,310,0,0" Height="45" Click="btnEight_Click"/>
+        <Button x:Name="btnNine" Content="9&#xD;&#xA;wxyz" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="165,310,0,0" Height="45" Click="btnNine_Click"/>
+        <Button x:Name="btnZero" Content="0&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="29,360,0,0" Height="41" Click="btnZero_Click"/>
+        <Button x:Name="btnWildcart" Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="97,360,0,0" Height="41" Click="btnWildcart_Click"/>
+        <Button x:Name="btnSharp" Content="#" HorizontalAlignment="Left" VerticalAlignment="Top" Width="39" Margin="165,360,0,0" Height="41" Click="btnSharp_Click"/>
 
-	</Grid>
+    </Grid>
 </Window>
